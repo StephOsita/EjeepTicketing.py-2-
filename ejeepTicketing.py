@@ -52,12 +52,14 @@ if route == 1:
         print("==================================")
         for index, locations in enumerate(starmall_sampol):
             print(f"{index+1}. {locations} ")
+        print("      Press 0 to end Route")
         print("==================================")
         From = int(input("Choose pick-up point: "))
         if From == 0:
             MoneyCollected = sum(boundary)
             print("You Choose to end journey...")
             print(f"Total money collected: {MoneyCollected:.2f}")
+            break
         To = int(input("Choose drop-off point: "))
         Quantity = int(input("Enter Quantity: "))
         print("===================================")
@@ -104,12 +106,14 @@ elif route == 2:
         print("==================================")
         for index, locations in enumerate(sampol_starmall):
             print(f"{index+1}. {locations} ")
+        print("      Press 0 to end Route")
         print("==================================")
         From = int(input("Choose pick-up point: "))
         if From == 0:
             MoneyCollected = sum(boundary)
             print("You Choose to end journey...")
             print(f"Total money collected: {MoneyCollected:.2f}")
+            break
         To = int(input("Choose drop-off point: "))
         Quantity = int(input("Enter Quantity: "))
         print("===================================")
