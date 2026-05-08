@@ -2,8 +2,9 @@
 This python code project is for Public Electronic Jeepney Ticketing System generating ride information and receipt. It is built to help electronic jeepney driver and conductors and render fair service to passengers. This code solve problems such as real-time computing and determine appropriate distance of a passenger.
 
 
-# LISTS
-- This is a list for where a passenger destined to go or to stop.
+# Route
+This is a list for where a passenger destined to go or to stop.
+
 
 ```python
 starmall_sampol = [
