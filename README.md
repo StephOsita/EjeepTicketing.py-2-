@@ -8,11 +8,11 @@ This python code project is for the Public Electronic Jeepney Ticketing System g
 - README.md
 
 ## Author
-Johnrick Ausinte
-Janine Garcia
-Stephen Osita
-Julia Regino
-Christian Salas
+- Johnrick Ausinte
+- Janine Garcia
+- Stephen Osita
+- Julia Regino
+- Christian Salas
 
 ## Features
 - Helps to arrange trips from Sampol to Starmall route, vice versa
